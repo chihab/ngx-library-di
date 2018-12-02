@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "auth-lib": [
+        "dist/auth-lib"
+      ],
+      "auth-lib/*": [
+        "dist/auth-lib/*"
+      ]
+    }
   }
 }
