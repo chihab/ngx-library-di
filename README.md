@@ -4,12 +4,13 @@ https://slides.com/chihab
 
 
 ## Build the Library (Watch mode in dev)
-
+```
 npm run build:auth-lib
-
-OR
-
+```
+or
+```
 ng build auth-lib --watch
+```
 
 ## Development server
 
@@ -20,10 +21,12 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
 ## Package Lib
+```
 ng build auth-lib
 cd dist/auth-lib
 npm adduser
 npm publish
+```
 
 Modify your package name (in package.json), module name has to be unique in npm registry 
 
